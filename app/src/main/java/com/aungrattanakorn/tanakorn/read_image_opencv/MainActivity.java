@@ -76,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
 
                 Bitmap bitmap = BitmapFactory.decodeStream(getContentResolver().openInputStream(uri));
 
-
                 imageView.setImageBitmap(bitmap);
 
 
